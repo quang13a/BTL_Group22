@@ -1,4 +1,4 @@
---Create Database `CV`
+-- Create Database `CV`
 
 --
 -- Table structure for table `aboutus_setup`
