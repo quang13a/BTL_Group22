@@ -1,7 +1,4 @@
-
-
--- Database: `CV`
---
+--Create Database `CV`
 
 --
 -- Table structure for table `aboutus_setup`
@@ -117,7 +114,7 @@ CREATE TABLE `personal_setup` (
 --
 
 INSERT INTO `personal_setup` (`id`, `profilepic`, `name`, `facebook`, `instagram`,`github`, `homewallpaper`, `professions`, `location`, `mobile`, `emailid`) VALUES
-(1, '118593402_780715232695126_7151664726896327746_n.jpg', 'Sơn', '', 'https://www.facebook.com/nguyenthanhson6920/', 'https://www.instagram.com/nts.6920/', 'https://github.com/nts6920','50931745_2006720012961188_5312821008384655360_n.jpg','Web Developer,PHP Developer,Youtuber,Graphic Designer',
+(1, '118593402_780715232695126_7151664726896327746_n.jpg', 'Sơn', 'https://www.facebook.com/nguyenthanhson6920/', 'https://www.instagram.com/nts.6920/', 'https://github.com/nts6920','50931745_2006720012961188_5312821008384655360_n.jpg','Web Developer,PHP Developer,Youtuber,Graphic Designer',
 'Số 6,ngõ 140 Trần Phú,Phường Mỗ  Lao,Quận Hà Đông','0356342770','nts6920@gmail.com');
 
 -- --------------------------------------------------------
@@ -143,8 +140,6 @@ INSERT INTO `portfolio` (`id`, `projectname`, `projectpic`, `projectlink`) VALUE
 (3, 'Code', '000-Online-Code-Editors.png', '#'),
 (4, 'Thể thao', '131295505_2553480948285089_1597392856028183152_n.jpg', '#'),
 (5, 'Code', '92978774_131442888466194_6722416514584018944_n.jpg', '#');
-(6, 'Xe oto', 'gia-xe-bmw-i8-4-1779.jpg', '#');
-
 
 -- --------------------------------------------------------
 
@@ -169,9 +164,7 @@ INSERT INTO `resume` (`id`, `category`, `title`, `year`, `ogname`, `workdesc`) V
 (1, 'a', 'CLB Tin Học Sinh Viên', '2019-present', 'Đại Học Thủy Lợi', ''),
 (2, 'a', 'Thực tập', '2018-2020', 'FPT Company', ''),
 (3, 'a', 'Thực tập', '2020 - Present', 'VNIT Company', '');
-(4, 'b', 'CLB Tin Học', '2016-1018', 'THPT Trung Văn', 'Đội Phó');
-(5, 'b', 'Thành Viên', '2016 - 2018', 'CLB Tin Học Trường Cấp 3', 'Nhiều điều mới!');
-(6, 'b', 'Cấp 3', '2015-2018', 'THPT Trung Văn', 'Học Sinh');
+
 -- --------------------------------------------------------
 
 --
@@ -189,11 +182,13 @@ CREATE TABLE `skills` (
 --
 
 INSERT INTO `skills` (`id`, `skill`, `score`) VALUES
-(1, 'Java', '10'),
-(2, 'Swift', '66'),
-(3, 'IOS', '20'),
-(4, 'HTML', '91'),
-(5, 'PS6', '34'),
+(1, 'HTML', '100'),
+(2, 'CSS', '90'),
+(3, 'PHP', '75'),
+(4, 'MYSQL', '75'),
+(5, 'Javascript', '60'),
+(6, 'Photoshop', '70'),
+(7, 'Bootstrap', '50');
 
 
 -- --------------------------------------------------------
